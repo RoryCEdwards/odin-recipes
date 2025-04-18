@@ -1,0 +1,1 @@
+In this project, I am going to build a recipe website using the HTML knowledge I have acquired so far through The Odin Project. I will be generating HTML code that will serve as the backbone and body of the website, code that creates elements on a web page such as formatting, links and images. 
