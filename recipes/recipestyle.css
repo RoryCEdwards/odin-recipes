@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, "Times New Roman", sans-serif;
+    color: white;
+}
+
+body {
+    background: #252424;
+}
+
+.card {
+    width: 900px;
+    margin: 20px auto;
+}
+
+.nav-menu {
+    background: rgb(207, 40, 62);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    width: 950px;
+    margin: 20px auto;
+    box-shadow: 10px 10px;
+}
+
+.nav-menu h1 {
+    display: inline-block;
+    margin-left: 400px;
+    background: #252424;
+    padding: 5px;
+}
+
+.nav-menu a {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    display: inline-block;
+    background: #252424;
+    font-weight: 800;
+}
+
+
+.title-image-description,
+.ingredients,
+.method {
+    padding: 20px;  
+    background: rgb(207, 40, 62);
+    border: 5px solid rgb(255, 255, 255);
+    margin: 30px auto;
+    box-shadow: 10px 10px;
+}
+
+.title-image-description * {
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+    background: #252424;
+}
+
+img {
+    border: 10px solid rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 42px;
+    padding: 8px;
+}
+
+h2 {
+    font-size: 32px;
+    background: #252424;
+    padding: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    background: #252424;
+    padding: 8px;
+}
+
+p,
+li {
+    font-size: 20px;
+    padding: 4px;
+}
+
+.method h3 {
+    display: block;
+    margin: 10px auto;
+    padding: 2px;
+    background: #252424;
+}
+
+.ingredients h3 {
+    margin: 20px;
+}
+
+.ingredients li,
+.method li {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    background: #252424;
+}
+
+.method p {
+    margin-bottom: 15px
+}
+
+
+
